@@ -22,6 +22,7 @@
 		C92916C02C22AC4A00D4BAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92916C32C22AC4A00D4BAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92916C52C22AC4A00D4BAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93170C42C22B6F8003ECD8E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				C92916C02C22AC4A00D4BAEB /* Assets.xcassets */,
 				C92916C22C22AC4A00D4BAEB /* LaunchScreen.storyboard */,
 				C92916C52C22AC4A00D4BAEB /* Info.plist */,
+				C93170C42C22B6F8003ECD8E /* Config.xcconfig */,
 			);
 			path = WhatTheWeatherLike;
 			sourceTree = "<group>";
@@ -156,6 +158,7 @@
 /* Begin XCBuildConfiguration section */
 		C92916C62C22AC4A00D4BAEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93170C42C22B6F8003ECD8E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -219,6 +222,7 @@
 		};
 		C92916C72C22AC4A00D4BAEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93170C42C22B6F8003ECD8E /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -275,6 +279,7 @@
 		};
 		C92916C92C22AC4A00D4BAEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93170C42C22B6F8003ECD8E /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,6 +313,7 @@
 		};
 		C92916CA2C22AC4A00D4BAEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93170C42C22B6F8003ECD8E /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
