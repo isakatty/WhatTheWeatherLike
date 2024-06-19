@@ -1,0 +1,2 @@
+# WhatTheWeatherLike
+Open Weather API
