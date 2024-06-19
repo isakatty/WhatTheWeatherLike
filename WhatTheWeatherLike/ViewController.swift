@@ -7,13 +7,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+public final class ViewController: UIViewController {
+    
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        configureHierarchy()
+        configureLayout()
     }
-
-
+    
+    private func configureHierarchy() {
+        
+    }
+    private func configureLayout() {
+        view.backgroundColor = .systemBackground
+        let safeArea = view.safeAreaLayoutGuide
+        
+    }
 }
 
